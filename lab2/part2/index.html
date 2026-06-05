@@ -9,13 +9,17 @@
     Lab 2 Part 2 page for INFT-1206 Website, a Planet Data Table
     -->
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Planet data table</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
       <table>
+
+        <caption>
+          Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
+        </caption>
 
         <colgroup>
           <col span="2">
@@ -23,9 +27,7 @@
           <col span="9">
         </colgroup>
 
-        <caption>
-          Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
-        </caption>
+      <tr>
           <td colspan="2"></td>      
           <th>Name</th>
           <th colspan="1">Mass (10<sup>24</sup>kg)</th>
@@ -37,7 +39,7 @@
           <th colspan="1">Mean temperature (℃)</th>
           <th colspan="1">Number of moons</th>
           <th colspan="1">Notes</th>
-        </td>
+        </tr>
 
         <tr>
           <th rowspan="4" colspan="2" scope="rowgroup">Terrestrial planets</th>
@@ -63,6 +65,7 @@
           <td>108.2</td>
           <td>464</td>
           <td>0</td>
+          <td></td>
         </tr>
 
         <tr>
@@ -115,7 +118,7 @@
           <td>10.7</td>
           <td>1433.5</td>
           <td>-140</td>
-          <td>-62</td>
+          <td>62</td>
           <td></td>
         </tr>
 
@@ -130,6 +133,7 @@
           <td>2872.5</td>
           <td>-195</td>
           <td>27</td>
+          <td></td>
         </tr>
 
         <tr>
@@ -142,10 +146,11 @@
           <td>4495.1</td>
           <td>-200</td>
           <td>14</td>
+          <td></td>
         </tr>
 
         <tr>
-          <th rowspan="1" colspan="2", scope="rowgroup">Dwarf planets</th>
+          <th rowspan="1" colspan="2" scope="rowgroup">Dwarf planets</th>
           <th scope="row">Pluto</th>
           <td>0.0146</td>
           <td>2,370</td>
