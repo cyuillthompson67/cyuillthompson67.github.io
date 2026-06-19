@@ -33,3 +33,48 @@ footer {
 footer p {
   text-align: center;
 }
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+section h1 + p {
+  text-indent: 2rem
+}
+
+a:link {
+  color: #aa6666;
+  outline: none;
+}
+
+a:hover {
+  color: #aa6666;
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus {
+  color: #aa6666;
+  text-decoration: none;
+  outline: none;
+}
+
+a:visited {
+  color: #aa6666;
+  outline: none;
+}
+
+a[href*="http"] {
+  background: url("images/external-link-52.jpg") no-repeat right center;
+  background-size: 10px 10px;
+  padding-right: 15px;
+}
