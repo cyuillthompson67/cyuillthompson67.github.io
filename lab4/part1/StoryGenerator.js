@@ -1,3 +1,9 @@
+/*
+Name: Ceria Yuill-Thompson
+File Name: StoryGenerator.js
+Lab 4 Part 1 page for INFT-1206 Website, a Story Generator Page
+*/
+
 // Complete variable definitions and random functions
 
 const customName = document.getElementById("custom-name");
